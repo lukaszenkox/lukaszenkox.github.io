@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+video{
+    border-radius: 20px;
+    margin: 20px;
+}
+ 
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(27, 27, 27);
+    font-size: 20px;
+}
+ 
+
+.wrapper{
+    width: 100%;
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    
+}
+
+.fw{
+    font-weight: 1000;
+    color: rgb(0, 153, 255);
+}
+
+.fw1{
+    color: lime;
+}
+
+.obr{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header img{
+    width: 1000px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+
+.btn-cen{
+    text-align: center;
+    margin: 20px;
+}
+
+button{
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(0, 153, 255); /* Green */
+  border-radius: 40px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px rgb(0, 153, 255);
+  transition: .3s;
+  height: 100px;
+  width: 600px;
+  cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.2)
+   
+}
+
+.opinie h2{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.opinie img{
+    width: 1000px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.inst{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+a:hover{
+    color: rgb(0, 153, 255);
+}
+
+.inst img{
+    width: 1500px;
+}
+
+@media (max-width: 768px)        {
+    
+    
+
+   div{
+       display: none;
+   }
+
+   h2{
+       display: none;
+   }
+
+   h1{
+       display: none;
+   }
+
+
+    h3{
+        display: block;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 50%;
+
+    }
+
+    p{
+        display: inline-block;
+        text-align: center;
+    }
+
+
+}
+
+@media (min-width: 769px) {
+
+    h3{
+        display: none;
+    }
+    p{
+        display: none;
+    }
+}
+
